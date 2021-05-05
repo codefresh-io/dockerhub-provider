@@ -57,7 +57,7 @@ RUN hack/build.sh
 #
 # ------ Nomios DockerHub Event Provider image ------
 #
-FROM alpine:3.9
+FROM alpine:3.11
 
 ENV GIN_MODE=release
 
